@@ -5,13 +5,13 @@
 total = 0.0
 # raw_input is no longer a function in Python 3.x
 # It was replaced by input(...)
-number1=float(raw_input("Enter the first number: "))
+number1=float(input("Enter the first number: "))
 total = total + number1
-number2=float(raw_input("Enter the second number: "))
+number2=float(input("Enter the second number: "))
 total = total + number2
-number3=float(raw_input("Enter the third number: "))
+number3=float(input("Enter the third number: "))
 total = total + number3
 average = total / 3
 # Print syntax was changed to a function
 # print(...)
-print "The average is " + str(average)
+print("The average is " + str(average))
